@@ -302,12 +302,36 @@ body {
 	justify-content: center;
 	align-items: flex-end;
 }
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	height: 50px;
+	width: 165px;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
 
 button {
 	height: 100%;
 	width: 90%;
 	cursor: pointer;
-	background-color: black;
+	background-color: #08e1ae;
+	background-image: linear-gradient(315deg, #08e1ae 0%, #98de5b 74%);
 	border: none;
 	border-radius: 50px 50px 30px 30px;
 	transition: 1s;
