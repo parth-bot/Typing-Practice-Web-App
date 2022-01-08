@@ -255,6 +255,30 @@ body {
 }
 
 
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	height: 100vh;
+	background-color: black;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	height: 50px;
+	width: 165px;
+	-webkit-tap-highlight-color: transparent;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+}
+
 button {
 	height: 100%;
 	width: 90%;
